@@ -3,33 +3,32 @@ open class Tier {
         println("Animal noises: ")
     }
 }
-
-//class Hund : Tier() {
-//    override fun makeNoise() {
-//        println("Woof!")
-//    }
-//}
-//
-//class Katze : Tier() {
-//    override fun makeNoise() {
-//        println("Miau.")
-//    }
-//}
-
-
-
-
-open class Hund : Tier() {
+// Todo: <<=========================
+class Hund : Tier() {
     override fun makeNoise() {
-        super.makeNoise()
         println("Woof!")
     }
 }
 
 class Katze : Tier() {
     override fun makeNoise() {
-        super.makeNoise()
         println("Miau.")
     }
 }
+// Todo: <<=========================
+
+//open class Hund : Tier() {
+//    override fun makeNoise() {
+//        super.makeNoise()
+//        println("Woof!")
+//    }
+//}
+//
+//class Katze : Tier() {
+//    override fun makeNoise() {
+//        super.makeNoise()
+//        println("Miau.")
+//    }
+//}
+// Todo: <<=========================
 
