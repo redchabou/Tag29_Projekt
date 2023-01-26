@@ -1,8 +1,8 @@
 import kotlin.random.Random
 
 open class Computer {
-//    val randomBoolean = Random.nextBoolean()
-    var on: Boolean = true
+    val randomBoolean = Random.nextBoolean()
+    var on: Boolean = randomBoolean
 
     constructor() {}
 
